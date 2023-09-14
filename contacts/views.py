@@ -38,5 +38,5 @@ def contact(request):
       fail_silently=False
     )
 
-        messages.success(request, 'Your request has been submitted, a realtor will get back to you soon')
-        return redirect('/listings/'+listing_id)
+    messages.success(request, 'Your request has been submitted, a realtor will get back to you soon')
+    return redirect('/listings/'+listing_id)
