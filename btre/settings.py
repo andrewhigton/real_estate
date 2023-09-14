@@ -146,14 +146,6 @@ MESSAGE_TAGS = {
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# email settings
-EMAIL_HOST = 'gerry@gmail.com'
-EMAIL_PORT = 587
-# gmail user
-EMAIL_HOST_USER = 'danielcoombes05@gmail.com' 
-EMAIL_HOST_PASSWORD_ = 'djangowork1/'
-EMAIL_USE_TLS=True 
-
 try:
     from .local_settings import *
 except ImportError:
