@@ -12,4 +12,3 @@ db.sqlite3-journal
 venv
 /static
 
-#pipSECRET_KEY = 'django-insecure-_p7y!@4g-wsextn$jyf8aw+j4&o0n)fsws2&cq4_=glff(f3@('
